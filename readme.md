@@ -34,7 +34,9 @@ After doing document tokenization, we usually remove “stop words” from the r
 Stemming is a process of counting inflected forms of a word together. lt helps us to reduce thenumber of unique vocabulary items that we need to track.
 
 Boys -> boy
+
 Looked->look
+
 Be,are,is,am,was,were -> be
 
 ### TF-IDF
@@ -42,11 +44,11 @@ Be,are,is,am,was,were -> be
 TF-IDF is the product of two statistics, term frequency and inverse document frequency.
 
 ### Latent Dirichlet Allocation
-Latent Dirichlet allocation (LDA) is a generative statistical model. 
-
-LDA is an example of a topic model.
+1. Latent Dirichlet allocation (LDA) is a generative statistical model. 
+2. LDA is an example of a topic model.
     - In LDA, each document is assumed to be characterized by a particular set of topics
+3. lf observations are words collected into documents, LDA result means that:
 
-lf observations are words collected into documents, LDA result means that:
     - Each document is a mixture of a small number of topics.
+    
     - Each word's creation is attributable to one of the document's topics
